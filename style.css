@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Центрирует изображение по горизонтали */
+    align-items: center; /* Центрирует изображение по вертикали */
+    width: 100vw;
+    /*max-width: 1200px; !* Опционально: ограничить максимальную ширину контейнера *!*/
+    margin: 0 auto; /* Опционально: центрировать контейнер */
+}
+
+.container img {
+    width: 100%;
+    height: auto; /* Автоматически подстраивает высоту, сохраняя пропорции */
+    object-fit: cover;
+}
+
+.rectangle {
+    position: absolute; /* Абсолютное позиционирование */
+    /*top: 10%; !* Начало прямоугольника с 20% высоты контейнера *!*/
+    left: 50%; /* Начало прямоугольника с 50% ширины контейнера */
+    width: 50%; /* Ширина прямоугольника равна 30% ширины контейнера */
+    height: 45%; /* Высота прямоугольника равна 60% высоты контейнера */
+    /*height: 425px;*/
+    background-color: rgba(248, 229, 159, 0.5); /* Полупрозрачный красный цвет */
+    z-index: 1; /* Прямоугольник находится поверх изображения */
+}
+.text_header {
+    position: absolute;
+    /*width: 418px;*/
+    height: 88px;
+    font-size: 48px;
+    color: #00bddc;
+    text-align: center;
+    left: 55%;
+    padding: 10px;
+    z-index: 1;
+}
+
+.main {
+    display: flex;
+
+}
+
+.main_text {
+    margin: 30px 50px;
+    padding: 10px 30px;
+    /*justify-content: right;*/
+}
+
+
+
