@@ -1,0 +1,112 @@
+.bitrix-development {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    margin-left: 70px;
+
+    .col-item {
+        display: flex;
+        flex-direction: row;
+        gap: 40px; 
+        justify-content:space-between;
+        align-items: center;
+    }
+
+
+
+    .content-section {
+    /* max-width: 900px;
+    text-align: left;
+    margin-bottom: 20px; */
+    /* flex: 1; */
+    max-width: 600px; 
+
+    h2 {
+        color: #ff9b00;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 100%;
+        margin-left: 90px;
+        white-space: nowrap;
+        transform: translateX(80px);
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 50px;
+        margin-right: -150px;
+        
+    }
+
+    ul {
+        padding-left: 20px;
+        margin-right: -150px;
+        margin-bottom: 30px;
+        margin-top: -15px;
+
+        li {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+        }
+    }
+    }
+
+    .image-section {
+        flex: 1; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+
+    img {
+        /* max-width: 100%;
+        height: auto;
+        border-radius: 10px; */
+        max-width: 70%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-left: 250px;
+        
+    }
+}
+
+    .icon-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin-top: 10px;
+
+    .icon-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+
+        img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #12cdf2;
+            margin-top: 10px; 
+            line-height: 1.4;
+            max-width: 150px; 
+            margin-left: 100px; 
+            text-align: center; 
+        }
+    }
+}
+

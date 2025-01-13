@@ -1,0 +1,122 @@
+.services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.services-content {
+    display: grid;
+    margin-top: 240px;
+    grid-template-columns: 1fr 0.2fr;
+    gap: 20px;
+    margin-right: -170px;
+    width: 100%;
+    /* align-items: start; */
+} 
+
+
+.left-column,
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px; 
+}
+
+.services-text {
+    grid-column: span 2;
+    text-align: left;
+    margin-top: 40px; 
+    width: 50%; 
+    margin-left: 0; 
+    padding: 0 20px; 
+    line-height: 1.6;
+}
+
+.services-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+
+.monitor-container {
+    position: relative;
+    width: 400px; 
+    height: auto;
+    top: 25px;
+}
+
+.monitor {
+    width: 100%;
+    height: auto;
+}
+
+.screen-content {
+    position: absolute;
+    top: 5%; 
+    left: 3%; 
+    width: 93%; 
+    height: 65%; 
+    object-fit: cover;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: -40px;
+    width: 60%;
+}
+
+.services-description {
+    margin-top: 30px;
+    padding: 20px;
+    width: 120%;
+    margin-left: -10px;
+    margin-right: auto;
+    text-align: center;
+    transform: translateX(-50px);
+
+}
+
+.services-description h2 {
+    color: #00aaff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.services-description p {
+    color: #333;
+    font-size: 16px; 
+    line-height: 1.6; 
+    margin-bottom: 10px;
+    text-align: left; 
+    /* width: 90%;  */
+}
+
+.order-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #00aaff;
+    color: #00aaff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.order-button:hover {
+    background-color: #00aaff;
+    color: #fff;
+}
